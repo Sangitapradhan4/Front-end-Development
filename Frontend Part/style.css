@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 20%;
+    height: 40%;
+    background-color: rgb(19, 141, 100);
+}
+
+#main2{
+    width: 100px;
+    height: 100px;
+    margin: 10px 30px 20px 12px;
+    background-color: blueviolet;
+}
+
+#car1{
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    background-color: orangered;
+}
+
+#car2{
+    width: 110px;
+    height: 90px;
+    background-color: orange;
+    /* top: 20%;
+     left: 40%; */
+    /* position:absolute;  */
+}
+#car3{
+    margin-bottom: 2%;
+    /* position: absolute; */
+    width: 130px;
+    height: 110px;
+    background-color: olive;
+}
+
+
+#box{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+}
+
+#chotabox{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(51, 120, 216);
+    position: absolute;
+    left: 50%;
+}
+
+#boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(48, 10, 84);
+}
+#chotabox1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(217, 190, 242);
+}
+#chotabox2{
+    width: 100px;
+    height: 110px;
+    background-color: rgb(187, 127, 243);
+}
+#chotabox3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(173, 100, 241);
+}
